@@ -1,0 +1,31 @@
+/node_modules
+/.idea
+composer.lock
+/coverage
+npm-debug\.log
+/dist
+.DS_Store
+/.pid
+/src/manifest.json
+
+/css
+/js
+/fonts
+/img
+lerna-debug*.*
+
+### Code ###
+# Visual Studio Code - https://code.visualstudio.com/
+.settings/
+.vscode/
+.vs/
+tsconfig.json
+
+#Ignore package-lock in terms of lerna workspaces: working only with yarn now
+package-lock.json
+
+
+# End of https://www.gitignore.io/api/code
+
+test-reports/
+lerna-debug.log

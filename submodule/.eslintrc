@@ -1,0 +1,57 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:promise/recommended",
+		"plugin:jest/recommended",
+		"plugin:prettier/recommended"
+	],
+	"parser": "babel-eslint",
+	"settings": {
+		"react": {
+			"version": "16.4.1"
+		},
+		"import/resolver": {
+			"webpack": { "config": "./webpack.common.js" }
+		}
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true,
+			"experimentalObjectRestSpread": true,
+			"destructuring": true
+		}
+	},
+	"env": {
+		"es6": true,
+		"commonjs": true,
+		"jest": true,
+		"browser": true
+	},
+	"plugins": ["react", "jsx-a11y", "import", "promise", "prettier"],
+	"rules": {
+		"no-process-env": [0],
+		"no-console": ["warn"],
+		"quotes": [2, "double", "avoid-escape"],
+		"import/no-unresolved": "off",
+		"no-irregular-whitespace": ["warn"],
+		"react/prop-types": [0],
+		"jest/no-disabled-tests": [0],
+		"react/jsx-no-target-blank": ["warn"],
+		"react/no-find-dom-node": ["warn"],
+		"no-unused-vars": ["error", { "ignoreRestSiblings": true }],
+		"prettier/prettier": "error"
+	},
+	"globals": {
+		"setImmediate": true,
+		"Cookie": true,
+		"process": true,
+		"fp_lib_execute": true,
+		"shallow": true,
+		"mount": true,
+		"ga": true,
+		"hj": true
+	}
+}

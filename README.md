@@ -1,2 +1,2 @@
-# emotion-lerna-reproduce
-reproducing emotion and lerna issue
+lerna bootstrap
+lerna build
