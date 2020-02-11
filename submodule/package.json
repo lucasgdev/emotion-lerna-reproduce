@@ -92,8 +92,7 @@
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.3",
     "webpack-dev-server": "^3.7.0",
-    "webpack-merge": "^4.2.1",
-    "@emotion/babel-preset-css-prop": "^10.0.27"
+    "webpack-merge": "^4.2.1"
   },
   "dependencies": {
     "@sentry/browser": "^5.0.7",
@@ -131,9 +130,8 @@
     "tingle.js": "^0.13.2",
     "url-search-params-polyfill": "^5.0.0",
     "whatwg-fetch": "^3.0.0",
-    "yup": "^0.27.0"
-  },
-  "peerDependencies": {
+    "yup": "^0.27.0",
+    "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.27",
     "emotion": "^10.0.27",
     "emotion-theming": "^10.0.27"

@@ -38,7 +38,8 @@ module.exports = {
 			}
 		}),
 		new webpack.EnvironmentPlugin([
-			"NODE_ENV"
+			"NODE_ENV",
+			"IS_DEVSTACK"
 		]),
 		new HtmlWebpackPlugin({
 			title: "Title",

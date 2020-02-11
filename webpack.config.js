@@ -32,8 +32,7 @@ module.exports = function makeWebpackConfig(env = {}) {
 	};
 
 	config.entry = {
-		reactapp: "./src/js/react-app.js",
-		app: "./src/css/app.scss"
+		reactapp: "./src/js/react-app.js"
 	};
 
 	const defineOutput = function(ext, hash = "chunkhash") {
