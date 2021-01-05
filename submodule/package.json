@@ -96,7 +96,7 @@
   },
   "dependencies": {
     "@sentry/browser": "^5.0.7",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "blueimp-md5": "^2.10.0",
     "classnames": "^2.2.6",
     "credit-card-type": "7.1.0",
